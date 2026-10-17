@@ -1,3 +1,13 @@
+## Brain extraction for MRI preprocessing
+
+This is a development fork of [HD-BET](https://github.com/MIC-DKFZ/HD-BET), a neural-network-based brain-extraction tool for MRI. The upstream command-line application produces brain masks from three-dimensional NIfTI images and supports processing a file or a folder, making it useful as a preprocessing component in research imaging workflows.
+
+**Contribution to review:** [PR #71](https://github.com/MIC-DKFZ/HD-BET/pull/71) proposes private staging for checkpoint downloads. The contribution concerns how model files are downloaded, with the implementation and upstream review available in the linked pull request.
+
+Follow the [official installation and usage guide](https://github.com/MIC-DKFZ/HD-BET#installation-instructions) below, including image-orientation and dimensionality requirements. The original study citation and model guidance are retained. The [branch comparison](https://github.com/MIC-DKFZ/HD-BET/compare/master...jdotc1:master) separates this fork's default branch from the proposed download change.
+
+---
+
 # HD-BET
 
 This repository provides easy to use access to our HD-BET
